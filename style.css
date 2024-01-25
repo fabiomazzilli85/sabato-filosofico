@@ -1,0 +1,123 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+h1 {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 30px;
+    color: #DC0228;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+.foto_home_page {
+    width: 60%;
+    margin: 25px 0px;
+    border-radius: 5px;
+}
+
+.foto_centrata {
+    display: flex;
+    justify-content: center;
+    background-color: #FFE3BB;
+}
+
+.aforisma  {
+    font-family: 'Merienda', cursive;
+    font-size: 25px;
+    color: #DC0228;
+    text-align: center;    
+    margin: 65px 0px 65px 0px;
+}
+
+.intro {
+    display: flex;
+    justify-content:center;
+    background-color: #9BB8CD;
+    padding: 20px;
+}
+
+.intro_intenti  {
+    margin:  40px;
+    max-width: 250px;
+}
+
+.contatto  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #DC0228;
+}
+.scrivici {
+    text-align: center;
+    padding: 20px;
+}
+
+.autori {
+    max-width: 300px;
+    margin: 45px 45px 45px 0px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.autori_centrato {
+    display: flex;
+    justify-content: center;
+    background-color: #9BB8CD;
+}
+
+h2 {
+    color: #DC0228;
+}
+
+.box  {
+    width: 400px;
+    background-color: #9BB8CD ;
+    border-radius: 5px;
+    margin: 55px;
+    margin-bottom: 55px;
+}
+
+.articolo {
+    padding: 25px;
+}
+
+.click {
+    color: #DC0228;
+    font-weight: 700;
+}
+
+.pagina_articoli {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
